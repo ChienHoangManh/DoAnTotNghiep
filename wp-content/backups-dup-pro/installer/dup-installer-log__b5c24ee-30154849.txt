@@ -1,0 +1,448 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 02:57:31
+* VERSION: 3.8.2
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		7.0.33 | SAPI: litespeed
+PHP MEMORY:	4294967296 | SUHOSIN: disabled
+SERVER:		LiteSpeed
+DOC ROOT:	/home/igungyxchosting/public_html/thucphamchucnang1
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	https://thucphamchucnang1.khowebseotop.vn/dup-installer/main.installer.php
+SAFE MODE :	0
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20190730_mauwebsitegioithieucongty_b5c24ee236d27a305956_20190730154849_archive.zip
+SIZE:	43.85MB
+
+>>> Starting ZipArchive Chunking Unzip
+archive offset 0
+Archive just got done processing last file in list of 7770
+Expected total archive extract time: 0.62581497400509
+Total extraction elapsed time until now: 0.62581497400509
+Resetting permissions
+
+WEB SERVER CONFIGURATION FILE STATUS:
+- .htaccess file was not reset or backed up.
+- .user.ini file was not reset or backed up.
+- web.config file was not reset or backed up.
+
+STEP-1 COMPLETE @ 02:57:33 - RUNTIME: 1.9952 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 02:58:42
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.2.26 -- Build Server: 10.0.32
+FILE SIZE:	dup-database__b5c24ee-30154849.sql (1.29MB) - installer-data.sql (0B)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	NOT_SET
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+NEW SQL FILE:	[/home/igungyxchosting/public_html/thucphamchucnang1/dup-installer/dup-installer-data__b5c24ee-30154849.sql]
+COLLATE FB:	Off
+DB CHUNKING:	disabled
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+Starting Cleanup Routine...
+Cleanup Routine Complete
+ERRORS FOUND:	0
+DROPPED TABLES:	35
+RENAMED TABLES:	0
+QUERIES RAN:	61
+
+gtct_commentmeta: (12)
+gtct_comments: (6)
+gtct_duplicator_pro_entities: (5)
+gtct_duplicator_pro_packages: (0)
+gtct_links: (0)
+gtct_options: (308)
+gtct_popularpostsdata: (6)
+gtct_popularpostssummary: (44)
+gtct_postmeta: (525)
+gtct_posts: (158)
+gtct_term_relationships: (37)
+gtct_term_taxonomy: (19)
+gtct_termmeta: (4)
+gtct_terms: (19)
+gtct_usermeta: (22)
+gtct_users: (1)
+gtct_wc_download_log: (0)
+gtct_wc_product_meta_lookup: (6)
+gtct_wc_webhooks: (0)
+gtct_woocommerce_api_keys: (0)
+gtct_woocommerce_attribute_taxonomies: (0)
+gtct_woocommerce_downloadable_product_permissions: (0)
+gtct_woocommerce_log: (0)
+gtct_woocommerce_order_itemmeta: (0)
+gtct_woocommerce_order_items: (0)
+gtct_woocommerce_payment_tokenmeta: (0)
+gtct_woocommerce_payment_tokens: (0)
+gtct_woocommerce_sessions: (1)
+gtct_woocommerce_shipping_zone_locations: (0)
+gtct_woocommerce_shipping_zone_methods: (0)
+gtct_woocommerce_shipping_zones: (0)
+gtct_woocommerce_tax_rate_locations: (0)
+gtct_woocommerce_tax_rates: (0)
+gtct_yoast_seo_links: (176)
+gtct_yoast_seo_meta: (714)
+Removed '59' cache/transient rows
+
+INSERT DATA RUNTIME: 3.1286 sec.
+STEP-2 COMPLETE @ 02:58:45 - RUNTIME: 3.1421 sec.
+
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 03:00:01
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+
+********************************************************************************
+OPTIONS:
+postguid:	0
+fullsearch:	0
+replace_mode:	legacy
+ssl_admin:	
+auth_keys_and_salts:	
+cache_wp:	
+cache_path:	
+empty_schedule_storage:	1
+replace_mode:	legacy
+remove_redundant:	0
+wp_debug:	0
+wp_debug_log:	0
+exe_safe_mode:	0
+cross_search:	
+replace_mail:	
+********************************************************************************
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+SUBSITE ID :"-1"
+MU MODE :"0"
+ACTION MU MODE :"-1"
+REPLACE MODE :"legacy"
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_commentmeta~ (12)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_comments~ (6)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_duplicator_pro_entities~ (5)
+gtct_duplicator_pro_packages^ (0)
+gtct_links^ (0)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_options~ (308)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_popularpostsdata~ (6)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_popularpostssummary~ (44)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_postmeta~ (525)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_posts~ (158)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_term_relationships~ (37)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_term_taxonomy~ (19)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_termmeta~ (4)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_terms~ (19)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_usermeta~ (22)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_users~ (1)
+gtct_wc_download_log^ (0)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_wc_product_meta_lookup~ (6)
+gtct_wc_webhooks^ (0)
+gtct_woocommerce_api_keys^ (0)
+gtct_woocommerce_attribute_taxonomies^ (0)
+gtct_woocommerce_downloadable_product_permissions^ (0)
+gtct_woocommerce_log^ (0)
+gtct_woocommerce_order_itemmeta^ (0)
+gtct_woocommerce_order_items^ (0)
+gtct_woocommerce_payment_tokenmeta^ (0)
+gtct_woocommerce_payment_tokens^ (0)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_woocommerce_sessions~ (1)
+gtct_woocommerce_shipping_zone_locations^ (0)
+gtct_woocommerce_shipping_zone_methods^ (0)
+gtct_woocommerce_shipping_zones^ (0)
+gtct_woocommerce_tax_rate_locations^ (0)
+gtct_woocommerce_tax_rates^ (0)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_yoast_seo_links~ (176)
+Search  1:"/home/thucphamchucnang1.giaodienwebmau.com/public_html/" => "/home/igungyxchosting/public_html/thucphamchucnang1/"
+Search  2:"\/home\/thucphamchucnang1.giaodienwebmau.com\/public_html\/" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1\/"
+Search  3:"%2Fhome%2Fthucphamchucnang1.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1%2F"
+Search  4:"\home\thucphamchucnang1.giaodienwebmau.com\public_html" => "/home/igungyxchosting/public_html/thucphamchucnang1"
+Search  5:"\\home\\thucphamchucnang1.giaodienwebmau.com\\public_html" => "\/home\/igungyxchosting\/public_html\/thucphamchucnang1"
+Search  6:"%5Chome%5Cthucphamchucnang1.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Figungyxchosting%2Fpublic_html%2Fthucphamchucnang1"
+Search  7:"//thucphamchucnang1.giaodienwebmau.com" ==========> "//thucphamchucnang1.khowebseotop.vn"
+Search  8:"\/\/thucphamchucnang1.giaodienwebmau.com" ========> "\/\/thucphamchucnang1.khowebseotop.vn"
+Search  9:"%2F%2Fthucphamchucnang1.giaodienwebmau.com" ======> "%2F%2Fthucphamchucnang1.khowebseotop.vn"
+Search 10:"http://thucphamchucnang1.khowebseotop.vn" ========> "https://thucphamchucnang1.khowebseotop.vn"
+Search 11:"http:\/\/thucphamchucnang1.khowebseotop.vn" ======> "https:\/\/thucphamchucnang1.khowebseotop.vn"
+Search 12:"http%3A%2F%2Fthucphamchucnang1.khowebseotop.vn" ==> "https%3A%2F%2Fthucphamchucnang1.khowebseotop.vn"
+-----------------
+gtct_yoast_seo_meta~ (714)
+--------------------------------------
+SCANNED:	Tables:35 	|	 Rows:2063 	|	 Cells:10876 
+UPDATED:	Tables:1 	|	 Rows:310 	|	 Cells:313 
+ERRORS:		0 
+RUNTIME:	0.289000 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - 'dup-wp-config-arc__[HASH].txt'
+SETTING WP DEBUG CONFIG constants
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Removed '0' schedule storage items
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+
+STEP-3 COMPLETE @ 03:00:01 - RUNTIME: 0.3262 sec. 
+
+
